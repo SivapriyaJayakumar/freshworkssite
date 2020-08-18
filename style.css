@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#ffffff;
+}
+.navbar{
+    background-color:#ffffff;
+}
+.jumbotron{
+    padding:58px 0px 0px;
+    margin:0px;
+    background-color:white;
+}
+.container{
+    margin: 40px 390px 0px; 
+    padding:30px 25px 40px;
+}
+.container h1{
+    font-size:32px;
+    color:#4d4d4d;
+}
+.container p{
+    font-size:16px;
+    color:#666666;
+}

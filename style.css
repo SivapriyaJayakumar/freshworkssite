@@ -411,7 +411,7 @@ body{
     .customerinner{
         padding-left:15px;
         padding-right: 15px;
-        margin-left:76;
+        margin-left:76px;
         text-align: center;
         margin-right:76px;
     }
@@ -431,7 +431,7 @@ body{
         color:#4d4d4d;
     }
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
     .customerinner{
         padding-left:10px;
         padding-right: 10px;

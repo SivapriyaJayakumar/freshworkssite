@@ -34,7 +34,7 @@ body{
     .navbar{
         margin: 0px;
         padding:15px 15px 0px;
-        height: 58px;;
+        height: 58px;
     }
 }
 @media only screen and (max-width: 400px) {
@@ -50,16 +50,16 @@ body{
         padding:0px;
     }
 }
-
 .firstbox{
     padding-top:58px;
-    
 }
   .container{
-    margin: 40px 156px 0px;
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
     padding:30px 25px 40px;
-    
-}
+  }
   .container h1{
     font-family: 'Inter', sans-serif;
     font-size:42px;
@@ -67,8 +67,6 @@ body{
     line-height: 54px;
     color:#4d4d4d;
     margin:10px 0px;
-    word-break: break-word;
-    text-size-adjust: 100%;
   }
   .container p{
     font-family: 'Roboto', sans-serif;
@@ -83,7 +81,7 @@ body{
 }
 @media only screen and (max-width: 800px) {
     .container{
-       margin:40px 0px 0px ;
+       margin: 0px ;
        text-align: center;
     }
     .buttonrow{
@@ -92,8 +90,7 @@ body{
 }
 @media only screen and (max-width: 400px) {
     .container{
-        margin:0;
-        padding:40px 10px 30px;
+        margin:0px;
     }
      .container h1{
         font-family: 'Inter', sans-serif;
@@ -127,19 +124,19 @@ body{
     border-style:none;
 }
 .illustration{
-    height: 330px;
+    height:300px;
     padding:0px 15px;
-    position: relative ;
+
 }
 @media only screen and (max-width: 800px) {
     .illustration{
-      height:330px;
+      height:250px;
       padding-top:10px;
     }
 }
 @media only screen and (max-width: 400px) {
     .illustration{
-      height:330px;
+      height:250px;
       width:100%;
     }
 }
@@ -176,12 +173,16 @@ body{
 .cardwrap1{
     text-align:center;
     padding-top: 50px;
-    margin: 0px 186px;
+    margin: 0px 156px;
+    padding-left:25px;
+    padding-right:25px;
 }
 .cardwrap2{
     text-align:center;
     padding-top: 20px;
-    margin: 0px 186px;
+    margin: 0px 156px;
+    padding-left:25px;
+    padding-right:25px;
 }
 .fdesk{
     border:0px solid #fff;
@@ -279,51 +280,37 @@ body{
     font-family:'Inter', sans-serif;
  
 }
-.cardwrap1{
-        text-align:center;
-        padding-top: 50px;
-        margin: 0px 156px;
-        padding-left:25px;
-        padding-right:25px;
-}
-.cardwrap2{
-        text-align:center;
-        padding-top: 20px;
-        margin: 0px 156px;
-        padding-left:25px;
-        padding-right:25px;
-}
+
 @media only screen and (max-width: 800px) {
-    .card{
-        display: flex;
-        flex-wrap: row;
-    }
+   
     .cardwrap1{
         text-align:center;
         padding-top: 50px;
         margin: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
 }
     .cardwrap2{
         text-align:center;
         padding-top: 20px;
         margin: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+    
     }
 }
 @media only screen and (max-width: 400px) {
-    .card{
-        display: flex;
-        margin: 0px;
-        flex-wrap: row;
-    }
     .cardwrap1{
         text-align:center;
         padding-top: 50px;
         margin: 0px;
+        padding:0px 25px;
 }
     .cardwrap2{
         text-align:center;
         padding-top: 20px;
         margin: 0px;
+        padding:0px 25px;
     }
     
 }
@@ -345,7 +332,6 @@ body{
     line-height: 48px;
 }
 .promisep{
-    
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -353,7 +339,7 @@ body{
     color:rgba(255,255,255,0.7);
 }
 .promisebutton{
-    padding-top:10px;
+    padding-top:30px;
     text-align:center;
 }
 .prmsbtn{
@@ -383,13 +369,13 @@ body{
     line-height: 48px;
     color:#4d4d4d;
 }
+.customer{
+    display: inline;
+}
 .image{
     margin:20px;
     width:120px;
    
-}
-.customer{
-    display: inline;
 }
 .customertestimonal{
     padding:50px 0px;
@@ -514,7 +500,7 @@ body{
     line-height: 26px;
     color:#4d4d4d;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
     .insidefworks{
         margin:30px;
     }
